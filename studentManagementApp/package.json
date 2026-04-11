@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "studentmanagementapp",
+  "version": "1.0.0",
+  "description": "Backed is a backend starter project built with Node.js, Express.js, and MongoDB. It provides a clean and scalable architecture for building RESTful APIs, including database integration, environment configuration, and modular code organization.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
