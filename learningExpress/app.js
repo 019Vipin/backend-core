@@ -2,7 +2,7 @@
  * MW
  * typs of MW
  * 1. Application level MW
- * 2.Route level MW
+ * 2. Route level MW
  * 3. Custom MW - can be chained between route and logic
  * 4. Inbuilt express MW
  * 5. External MW

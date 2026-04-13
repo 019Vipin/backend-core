@@ -1,0 +1,41 @@
+const express=require("express");
+const route=express.Router();
+
+/**
+ * Start define the routes
+ */
+
+
+/**
+ * Controller import
+ */
+const idea_controller = require("../controllers/ideas.controller");
+
+/**
+ * Route for fetch all ideas-127.0.0.1:8080/ideas_app/v1/ideas
+ * 
+ */
+route.get("/ideas",idea_controller.getAllIdeas);
+
+/**
+ * Route for fetching idea based on the id
+ */
+route.get("/ideas/:id",idea_controller.getIdeaBasedOnId);
+
+/**
+ * Route for creating a new idea
+ */
+route.post("/ideas",idea_controller.createIdea);
+
+/**
+ * Route for updating the existing idea
+ */
+route.put("/ideas/:id",idea_controller.updateIdea);
+
+/**
+ * Route for deleting the existing idea
+ */
+route.delete("/ideas/:id",idea_controller.deleteIdea);
+
+
+module.exports=route;   
