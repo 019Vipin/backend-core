@@ -1,0 +1,21 @@
+{
+  "name": "backend-core",
+  "version": "1.0.0",
+  "description": "learning mongoose",
+  "main": "index.js",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "depd": "^2.0.0",
+    "dotenv": "^17.4.2",
+    "ee-first": "^1.1.1",
+    "mongoose": "^9.5.0",
+    "morgan": "^1.10.1",
+    "on-headers": "^1.1.0",
+    "safe-buffer": "^5.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
