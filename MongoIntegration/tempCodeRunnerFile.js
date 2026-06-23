@@ -1,16 +1,24 @@
-/**
- * Logic to connect with the mongodb
- */
-require("dotenv").config();
-const mongoose = require("mongoose");
+    /**
+//      * i want to find the count of documents inside a collection
+//      */
+//     const n=await Student.countDocuments({age:{$gte:24}});
+//     console.log(n);
 
-console.log("ENV VALUE:", process.env.MONGODB_URI);
+//     /**
+//      * i need to update an existing document
+//      */
+//     const res1=await Student.findOneAndUpdate(
+//     { email: "abc@gmail.com" },
+//     { $set: { age: 35 } },
+//     { new: true, includeResultMetadata: true }
+// );
 
-(async () => {
-    try {
-        await mongoose.connect("mongodb://127.0.0.1:27017/learn_mongoose");
-        console.log('MongoDB connection is successful !')
-    } catch (err) {
-        console.log("Mongo Error", err)
-    }
-})();
+// console.log(res1);
+
+// const res2=await Student.findOneAndUpdate(
+//     { email: "xyz@gmail.com"},
+//     { $set: { age: 35 } },
+//     { new: true, includeResultMetadata: true }
+// );
+
+// console.log(res2);
