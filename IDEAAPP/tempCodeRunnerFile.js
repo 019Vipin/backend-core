@@ -1,2 +1,1 @@
-// middleware
-app.use(express.json());
+const PORT=7070;
